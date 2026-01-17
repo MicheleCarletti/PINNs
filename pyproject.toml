@@ -3,7 +3,7 @@ name = "pinns"
 version = "0.1.0"
 description = "Physics informed neural networks (PINNs)"
 authors = [
-    {name = "MicheleCarletti",email = "michelecarletti98@gmail.com"}
+    {name = "MicheleCarletti"}
 ]
 readme = "README.md"
 requires-python = ">=3.12,<3.15"
