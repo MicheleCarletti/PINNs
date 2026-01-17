@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+venv/
+env/
+# Poetry files
+# Python cache files
+__pycache__/
+cooling/__pycache__/
+*.pyc
+#IDE files
+.vscode/
+.idea/
