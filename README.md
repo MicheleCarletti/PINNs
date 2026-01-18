@@ -15,6 +15,8 @@ This project demonstrates the use of Physics-Informed Neural Networks (PINNs) to
 
 ## Usage
 
+### Thermodynamic cooling experiment
+
 Run the thermodynamic cooling example:
 
 ```bash
@@ -28,12 +30,32 @@ This will train a PINN model and display plots of training loss and temperature 
 
 ![image](./imgs/pinn_cooling.png)
 
+### Harmonic oscillator experiment
+
+Run the damped harmonic oscillator example:
+
+```bash
+cd harmonic_motion
+python main_HM.py
+```
+
+This will train a PINN model and display plots of training loss and position predictions.
+
+![image](./imgs/hm_training.png)
+
+![image](./imgs/hm_res.png)
+
 ## Project Structure
 
-- `cooling/`: Main application code
+- `cooling/`: Cooling experiment
   - `main_thermo.py`: Example script for cooling process modeling
   - `networks.py`: PINN neural network implementation
   - `equations.py`: Physical equations and utilities
+- `harmonic_motion/`: damped harmonic oscillator experiment
+  - `main_HM.py`: Example script for harmonic motion modeling
+  - `networks.py`: PINN neural network implementation
+  - `equations.py`: Physical equations and utilities
+- `imgs/`: images for plots
 - `pyproject.toml`: Project configuration and dependencies
 - `README.md`: This file
 
